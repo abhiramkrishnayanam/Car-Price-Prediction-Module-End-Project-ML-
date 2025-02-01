@@ -27,7 +27,28 @@ This project aims to build a machine learning model to predict car prices based 
 
 ### **5. Hyperparameter Tuning and Optimization**  
 - Performed **hyperparameter tuning** on the best model using techniques like **Grid Search or Randomized Search**.  
-- Retrained the model with optimized parameters and re-evaluated its performance.  
+- Retrained the model with optimized parameters and re-evaluated its performance.
+
+## Model
+
+The model used for predicting car prices is **GradientBoostingRegressor**, which provides accurate results for regression tasks by combining multiple decision trees to improve prediction accuracy.
+
+## Evaluation Metrics
+
+- **MAE (Mean Absolute Error):** 0.0893
+- **MSE (Mean Squared Error):** 0.0145
+- **RMSE (Root Mean Squared Error):** 0.1204
+- **R² (Coefficient of Determination):** 0.9071
+
+These metrics indicate an improved model after hyperparameter tuning, with the model explaining 90.71% of the variance in car prices.
+
+## Results
+
+After tuning, the model showed better performance than before:
+
+- **Decreased MAE, MSE, and RMSE:** Indicating improved model accuracy.
+- **Increased R²:** From 0.9002 to 0.9071, meaning the model explains more variance in the prices.
+
 
 ### **6. Final Model Prediction and Comparison**  
 - Used the optimized model to predict car prices on the test dataset.  
